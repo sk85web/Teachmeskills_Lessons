@@ -1,5 +1,6 @@
 body {
   font-size: 18px;
+  box-sizing: border-box;
 }
 .container {
   margin: 20px auto;
@@ -44,4 +45,73 @@ a {
 
 a:visited {
   color: green;
+}
+
+.task6 {
+  margin: 0;
+  padding: 0;
+}
+.task6-li {
+  color: #000;
+  list-style: none;
+  position: relative;
+}
+
+.task6-li::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  left: -15px;
+  top: calc(50% - 5px);
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+.square__item {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.square__item_red {
+  border: 2px solid red;
+  top: 0;
+  left: 0;
+}
+.square__item_blue {
+  border: 2px solid blue;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+}
+.square__item_green {
+  border: 2px solid green;
+  bottom: 0;
+  right: 0;
+}
+
+.square__task7 {
+  width: 70px;
+  height: 70px;
+}
+
+.square__item_redfill {
+  background-color: red;
+}
+.square__item_bluefill {
+  background-color: blue;
+}
+.square__item_greenfill {
+  background-color: green;
+}
+
+.square__task10 div:nth-child(1) {
+  z-index: 3;
+}
+.square__task10 div:nth-child(2) {
+  z-index: 2;
 }
