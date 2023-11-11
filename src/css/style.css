@@ -1,9 +1,17 @@
 body {
-  font-size: 18px;
+  font-size: 14px;
   margin: 0;
-  font-family: 'Montserrat', serif;
+  font-family: 'Roboto', serif;
+  color: #414141;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
 /* ---------------Task 1--------------------------- */
 
 /* .link {
@@ -22,7 +30,7 @@ body {
 /* ---------------/Task 1--------------------------- */
 
 /* ---------------Task 2--------------------------- */
-.main {
+/* .main {
   margin: 0 auto;
   width: 1440px;
   height: 895px;
@@ -131,6 +139,66 @@ body {
 
 .arrow {
   margin-left: 27px;
-}
+} */
 
 /* ---------------/Task 2--------------------------- */
+
+/* ---------------Task 3--------------------------- */
+.goods {
+  margin: 20px auto;
+  width: 768px;
+}
+
+.goods__title {
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container {
+  width: 720px;
+}
+
+.goods__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.good__item {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: calc(33.33% - 50px);
+}
+
+.good__item:hover {
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.11);
+}
+
+.good__content {
+  margin-top: 30px;
+}
+
+.good__icon {
+  align-self: flex-end;
+}
+
+.good__title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.good__categor {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.good__price {
+  display: block;
+}
+
+/* ---------------/Task 3--------------------------- */
