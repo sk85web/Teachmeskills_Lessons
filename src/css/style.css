@@ -1,9 +1,12 @@
 body {
   font-size: 18px;
-  margin: 20px;
+  margin: 0;
+  font-family: 'Montserrat', serif;
 }
 
-.link {
+/* ---------------Task 1--------------------------- */
+
+/* .link {
   display: inline-block;
   padding: 10px 5px;
   border: 2px solid blue;
@@ -14,4 +17,120 @@ body {
 
 .link:hover {
   transform: rotate(30deg);
+} */
+
+/* ---------------/Task 1--------------------------- */
+
+/* ---------------Task 2--------------------------- */
+.main {
+  margin: 0 auto;
+  width: 1440px;
+  height: 895px;
+  text-align: center;
+  background-image: url(/Teachmeskills_Lessons/src/img/bg.png);
 }
+
+.nav {
+  display: flex;
+  padding: 49px 132px;
+  justify-content: space-between;
+}
+
+.burger {
+  width: 18px;
+  height: 12px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger:hover span {
+  background-color: #3a3838;
+}
+
+.burger span {
+  width: 100%;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+}
+
+.burger span:nth-child(1) {
+  top: 0;
+}
+
+.burger span:nth-child(3) {
+  top: auto;
+  bottom: 0;
+}
+
+.header__search {
+  display: flex;
+}
+
+.search__img {
+  cursor: pointer;
+  margin-right: 17px;
+}
+
+.search__input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+
+  position: relative;
+}
+
+.search__input::placeholder {
+  color: #fff;
+}
+
+.search__input:focus {
+  display: inline-block;
+  outline: none;
+}
+
+.search__icon {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.main__content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__title {
+  text-transform: uppercase;
+  letter-spacing: -30px;
+  font-size: 200px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.main__subtitle {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.main__button {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 38px;
+  background-color: transparent;
+  border: #fff 1px solid;
+  color: #fff;
+}
+
+.arrow {
+  margin-left: 27px;
+}
+
+/* ---------------/Task 2--------------------------- */
