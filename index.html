@@ -3,96 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/css/style.css" />
-    <title>Lesson6</title>
+    <link rel="stylesheet" href="/Teachmeskills_Lessons/src/css/style.css" />
+    <title>Lesson_8</title>
   </head>
   <body>
-    <div class="container text">
-      <h1>1</h1>
-      <h1>Открывок из книги</h1>
-      <p>
-        <span>Начало:</span>
-        <span
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          cum? Reprehenderit velit est assumenda quidem exercitationem, commodi
-          a soluta. Dolore alias voluptatem quo distinctio!</span
-        >
-        <span>конец</span>
-      </p>
+    <div class="container">
+      <h2>Задание 1</h2>
+      <form method="post" action="#" enctype="multipart/form-data">
+        <input type="text" placeholder="Плейсхолдер" />
+        <input type="text" value="Value" />
+        <input type="text" placeholder="disabled" disabled />
+        <input type="password" value="dndjsndjsn" />
+        <textarea
+          name="textArea"
+          cols="30"
+          rows="5"
+          placeholder="Введите текст"
+        ></textarea>
+        <input type="submit" value="Кнопка через тег input" />
+        <button type="submit">Кнопка через тег button</button>
+      </form>
 
-      <p>
-        <span>Начало:</span>
-        <span
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          cum? Reprehenderit</span
-        >
-        <span>конец</span>
-      </p>
+      <h2>Задание 2</h2>
+      <input
+        type="text"
+        id="text"
+        placeholder="Плейсхолдер"
+        style="display: inline"
+      />
+      <label for="text"
+        >Это метка для инпута - нажмите на меня - и инпут получит фокус</label
+      >
+      <button type="submit">Отправить на сервер</button>
 
-      <p>
-        <span>Начало:</span>
-        <span
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          cum? Reprehenderit velit est assumenda quidem exercitationem, commodi
-          a soluta. Dolore alias voluptatem quo distinctio!Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Deserunt, cum? Reprehenderit velit
-          est assumenda quidem exercitationem, commodi a soluta. Dolore alias
-          voluptatem quo distinctio</span
-        >
-        <span>конец</span>
-      </p>
+      <h2>Задание 3</h2>
+      <input type="checkbox" id="check" style="display: inline" />
+      <label for="check"
+        >Это метка для чекбоксаЖ нажмите на меня - чекбокс сменит галочку</label
+      >
+      <br />
+      <input type="checkbox" id="check2" style="display: inline" checked />
+      <label for="check2">Я омечен по умолчанию</label>
+      <br />
+      <input type="checkbox" id="check2" style="display: inline" disabled />
+      <label for="check2">Я disabled</label>
 
-      <p>
-        <span>Начало:</span>
-        <span
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          cum? Reprehenderit velit est assumenda quidem exercitationem, commodi
-          a soluta. Dolore alias voluptatem quo distinctio!quidem
-          exercitationem, commodi a soluta. Dolore alias voluptatem quo
-          distinctio!</span
-        >
-        <span>конец</span>
-      </p>
-
-      <h1>2</h1>
-      <ul>
-        <li>Element 1</li>
-        <li>Element 2</li>
-        <li>Element 3</li>
-        <li>Element 4</li>
-      </ul>
-
-      <h1>3</h1>
-      <ul class="task3">
-        <li>Element 1</li>
-        <li>Element 2</li>
-        <li>Element 3</li>
-        <li>Element 4</li>
-      </ul>
-
-      <h1>4</h1>
-
-      <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora saepe
-        amet nihil qui esse magnam fuga doloribus laborum tempore sequi!
+      <div class="radioblock">
+        <h3>
+          Это группа радиокнопок - только одна из них может быть отмечена!
+        </h3>
+        <input type="radio" id="radio1" style="display: inline" name="yes" />
+        <label for="radio1">Это метка для радио</label>
+        <br />
+        <input type="radio" id="radio2" style="display: inline" name="yes" />
+        <label for="radio2">Это метка для радио</label>
       </div>
-
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laborum
-        eum voluptatem, dicta reiciendis, dignissimos, aliquid obcaecati
-        blanditiis quidem cumque exercitationem voluptas nam natus ipsum earum.
-        Nemo illum minima voluptas.
-      </div>
-
-      <div class="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur
-        placeat maiores quae, in molestias.
-      </div>
-
-      <h1>5</h1>
-      <a href="#">test</a>
-      <a href="#e">test</a>
-      <a href="#ewe">go</a>
     </div>
   </body>
 </html>
