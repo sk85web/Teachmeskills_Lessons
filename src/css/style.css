@@ -1,47 +1,18 @@
-body {
-  font-size: 18px;
-}
-.container {
-  margin: 20px auto;
-  padding: 20px;
-  max-width: 500px;
+html {
+  font-size: font-size;
+  scroll-behavior: smooth;
 }
 
-p span:first-child {
-  color: red;
-}
-
-p span:last-child {
-  color: green;
-}
-
-p:nth-child(odd) {
-  color: red;
-}
-
-ul li:first-child {
-  color: red;
-}
-ul li:last-child {
-  color: green;
-}
-
-.task3 li:nth-child(even) {
-  color: red;
-}
-.task3 li:nth-child(odd) {
-  color: green;
-}
-
-div:not(.text) {
-  color: red;
-}
-
-a {
-  display: block;
-  font-size: inherit;
-}
-
-a:visited {
-  color: green;
+*,
+::before,
+:after,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
